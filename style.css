@@ -1,0 +1,395 @@
+h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.nav-item{
+    /* margin: 3px; */
+    font-weight: bold;
+}
+.nav-item:hover{
+    border: 3px solid #333;
+    border-radius: 30px;
+    background-color: #999;
+}
+.dropdown-menu {
+    width: 20px;
+    margin: 0 20px;
+}
+.dropdown-menu .dropdown-item:hover{
+    border: 3px solid #666;
+    border-radius: 30px;
+    text-align: center;
+    width: 80px;
+}
+.east h2,p{
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+.east{
+    display: flex;
+    text-align: center;
+    margin: 4px;
+    align-items: center;
+}
+.east img{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 15px;
+}
+.west{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 4px;
+}
+
+.west h2,p{
+text-align: center;
+align-items: center;
+}
+.west img{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 50px;
+}
+.north{
+    display: flex;
+    text-align: center;
+    margin: 4px;
+    align-items: center;
+}
+.north h2,p{
+    text-align: center;
+    align-items: center;
+    
+    }
+    .north img{
+        height: 250px;
+        width: 350px;
+        border-radius: 30px;
+        padding: 18px;
+    margin-right: 20px;
+    }
+    
+.south{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.south h2,p{
+    text-align: center;
+    align-items: center;
+    }
+    .south img{
+        height: 200px;
+        width: 350px;
+        border-radius: 30px;
+        padding: 18px;
+    }
+.btn{
+    background-color: darkgray;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: larger;
+    padding: 10px 130px;
+    margin: 30px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: black;
+    border-radius: 20px;
+}
+.history h1{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;    
+}
+.history img{
+    margin: 0px 25px;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+.history h6{
+    margin: 20px;
+    text-align: center;
+    width: 95%;
+}
+
+.btnt{
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid;
+    font-size: larger;
+    padding: 10px 30px;
+    text-align: center;
+    margin-left: 580px;
+}
+.row h5{
+    color: darkgray;
+}
+.btnt:hover{
+    background-color: darkgrey;
+    color: black;
+    border-radius: 100px;
+    transition: .5s;
+}
+.container-fluid img{
+    height: 70px;
+    width: 280px;
+}
+.sri h2,p{
+    text-align: center;
+    align-items: center;
+}
+.sri img{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 18px;
+}
+.sri{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.ind h2,p{
+    text-align: center;
+    align-items: center;
+}
+.ind img{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 18px;
+}
+.ind{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.sau h2,p{
+    text-align: center;
+    align-items: center;
+}
+.sau img{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 18px;
+}
+.sau{
+    display: flex;
+}
+.gallery img{
+    height: 380px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.fb img{
+    height: 35px;
+    margin: 0 40px;
+}
+.fb img:hover{
+    border: 2px solid #333;
+    border-radius: 20px;
+}
+.wt img{
+    height: 35px;
+    margin: 0 40px;
+}
+.wt img:hover{
+    border: 2px solid #333;
+    border-radius: 50px;
+}
+.tw img{
+    height: 30px;
+    margin: 0 40px;
+}
+.tw img:hover{
+    border: 2px solid #333;
+    border-radius: 50px;
+}
+.ig img{
+    height: 30px;
+    margin: 0 40px;
+}
+.ig img:hover{
+    border: 2px solid #333;
+    border-radius: 50px;
+}
+
+.gm img{
+    height: 30px;
+    margin: 0 40px;
+}
+.gm img:hover{
+    border: 2px solid #333;
+    border-radius: 30px;
+}
+.row a{
+    text-decoration: none;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(./Images/gallery.jpg);
+    background-size: cover;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #333;
+}
+
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 22px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: whitesmoke;
+    flex-direction: column;
+    font-weight: 300px;
+}
+.container .contactInfo .box .text h3{
+font-weight: 500;
+color: #333;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background-color: #fff;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+} 
+.contactform .inputbox input,textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactform .inputbox input:focus~span,
+.contactform .inputbox input:valid~span,
+.contactform .inputbox textarea:focus~span,
+.contactform .inputbox textarea:valid~span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]
+{
+    width: 100px;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+} 
+.boximg{
+    height: 30px;
+}
+.links{
+    color: white;
+}
+
+.container-fluid .row{
+    padding: 20px;
+/* margin-top: 10px;
+margin-bottom: 10px; */
+}
+.container-fluid .row p{
+    padding: 50px;
+    font-weight: bolder;
+    font-size: 22px;
+    color: white;
+}
+.container-fluid .row img{
+    border-radius: 30px;
+    height: 200px;
+}
+.about{
+    background: url(./Images/pakistan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
